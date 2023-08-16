@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-paginate/static/css/main.679f92fb.css",
-    "main.js": "/react-paginate/static/js/main.a1db5f29.js",
+    "main.js": "/react-paginate/static/js/main.bedde817.js",
     "index.html": "/react-paginate/index.html",
     "main.679f92fb.css.map": "/react-paginate/static/css/main.679f92fb.css.map",
-    "main.a1db5f29.js.map": "/react-paginate/static/js/main.a1db5f29.js.map"
+    "main.bedde817.js.map": "/react-paginate/static/js/main.bedde817.js.map"
   },
   "entrypoints": [
     "static/css/main.679f92fb.css",
-    "static/js/main.a1db5f29.js"
+    "static/js/main.bedde817.js"
   ]
 }
