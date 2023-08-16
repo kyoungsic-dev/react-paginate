@@ -50,7 +50,7 @@ export default function App() {
           currentItems.map(item => (
             <div key={item.id}>
               <div className='article-list__img'>
-                <img src={item.snippet.thumbnails.medium.url} alt={item.snippet.title} />
+                <img src={item.snippet.thumbnails.high.url} alt={item.snippet.title} />
               </div>
               <p className='article-list__name'>{item.snippet.title}</p>
             </div>
