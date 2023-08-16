@@ -7,7 +7,7 @@ import { GrPrevious, GrNext } from 'react-icons/gr';
 
 export default function App() {
   const { data } = useQuery(['data'], async () => {
-    return fetch('/api/data.json', {
+    return fetch('./api/data.json', {
       headers: {
         Accept: 'application / json',
       },
@@ -17,7 +17,6 @@ export default function App() {
       .then(data => data.items);
   });
 
-  console.log('data', data);
   const itemsPerPage = 8;
 
   //? 빈 아이템 목록부터 시작
